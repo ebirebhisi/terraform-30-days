@@ -1,32 +1,51 @@
-# Day 02: Setting Up Terraform and Deploying an EC2 Instance
+# Ì∫Ä Day 2 of 30: Terraform Setup & First EC2 Deployment
 
-## Ì≥ò What I Did
-
-- Installed Terraform locally
-- Installed and configured AWS CLI
-- Set up Visual Studio Code with AWS plugin
-- Created my first EC2 instance using Terraform
-- Accessed the default NGINX page on the browser
-
-## Ì∫Ä Files Included
-
-- `main.tf` ‚Äì Defines the EC2 infrastructure
-- `variables.tf` ‚Äì Parameterizes instance configuration
-- `outputs.tf` ‚Äì Displays useful outputs like instance IP
-- `terraform.tfvars` ‚Äì Stores actual variable values
-
-## Ì∑™ What I Learned
-
-- The Terraform workflow: `init`, `plan`, `apply`, `destroy`
-- How to manage AWS resources using Terraform
-- Understanding of `.tf`, `.tfstate`, and `.tfvars` files
-
-## Ì¥ó Blog Post
-
-Check out my full write-up on Medium:  
-Ì±â [Day 2 of 30 - Setting Up Terraform, AWS CLI & Deploying EC2](https://medium.com/@ebirebhisiisoa/day-2-of-30-setting-up-terraform-aws-cli-deploying-your-first-ec2-instance-b86d16c9fed4)
+Welcome to **Day 2** of my 30-Day Terraform Challenge!  
+Today‚Äôs focus was on setting up my local environment and deploying my first EC2 instance on AWS using Terraform.
 
 ---
 
-Feel free to clone this repo or use it as a reference for your own Terraform journey!
-# Day 2 ‚Äì Terraform Practice
+## ‚úÖ Tasks Completed
+
+- ‚úÖ Installed **Terraform**
+- ‚úÖ Installed and configured **AWS CLI**
+- ‚úÖ Installed **Visual Studio Code** and AWS Toolkit
+- ‚úÖ Configured AWS credentials locally
+- ‚úÖ Wrote and applied Terraform code to:
+  - Provision a single EC2 instance
+  - Deploy a web server (NGINX)
+- ‚úÖ Verified deployment by visiting the **NGINX welcome page**
+
+---
+
+## Ì≥Å Project Files
+
+- `main.tf` ‚Äì Infrastructure configuration
+- `variables.tf` ‚Äì Declared input variables
+- `terraform.tfvars` ‚Äì Variable values
+- `outputs.tf` ‚Äì Outputs like public IP
+- `terraform.tfstate` ‚Äì Terraform state file
+- `nginx-success.png` ‚Äì Screenshot of deployed web server
+
+---
+
+## Ì≥∏ Deployment Preview
+
+![Nginx Deployed](./nginx-success.png)
+
+---
+
+## Ì≥ò What I Learned
+
+- Basic Terraform CLI commands: `init`, `plan`, `apply`, `destroy`
+- How to structure Terraform configurations using `main.tf`, `variables.tf`, and `outputs.tf`
+- Use of `.tfvars` for cleaner configuration
+- Understanding `.tfstate` file and why it's important
+- Integration of Terraform with AWS through the provider block
+
+---
+
+## Ì≥ù Blog Recap
+
+I wrote a detailed blog post walki
+
