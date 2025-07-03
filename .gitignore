@@ -1,0 +1,8 @@
+.terraform/
+*.exe
+*.zip
+*.pem
+*.png
+*.tfstate
+*.tfstate.backup
+
